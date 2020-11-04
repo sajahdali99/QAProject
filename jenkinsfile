@@ -18,7 +18,7 @@ pipeline {
 		}
 		stage("Push image to Nexus Repository 8082"){
 			steps{
-				sh "./scripts/run.sh"
+				sh "./scripts/push.sh"
 			}
 		}
 		stage("Run containers with recently build images"){
