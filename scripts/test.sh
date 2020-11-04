@@ -2,7 +2,7 @@
 
 sudo apt install python3-pip python3-venv -y
 python3 -m venv python-testing-venv
-. ./python-testing-venv/bin/activate
+. ./test-venv/bin/activate
 
 pip3 install pytest
 pip3 install pytest-cov
@@ -17,4 +17,4 @@ pytest ./service-3 --cov ./service-3/application
 pytest ./service-4 --cov ./service-4/application
 
 deactivate
-rm -rf python-testing-venv
+rm -rf test-venv
