@@ -16,4 +16,5 @@ pytest ./service-3 --cov ./service-3/application
 
 pytest ./service-4 --cov ./service-4/application
 
+deactivate
 rm -rf python-testing-venv
