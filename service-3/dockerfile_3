@@ -1,6 +1,6 @@
 FROM python:3.7
 
-WORKDIR home/student/QAProject/service-3
+WORKDIR /home/student/QAProject/service-3
 
 COPY . .
 
