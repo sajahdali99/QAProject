@@ -1,3 +1,5 @@
+#! /bin/bash
+
 sonar-scanner \
   -Dsonar.projectKey=QAProject \
   -Dsonar.sources=. \
