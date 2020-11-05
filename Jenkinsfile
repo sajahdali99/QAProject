@@ -8,12 +8,12 @@ pipeline {
 		}
 		stage("SAST Testing"){
 			steps {
-				sh "./scripts/sonar-scanner.sh"
+				sh "./scripts/sonarqube.sh"
 			}
 		}
 		stage("Unit Testing"){
 			steps {
-				sh "./scripts/test.sh"
+				sh "./scripts/pytest.sh"
 			}
 		}
 		stage("Building images"){
