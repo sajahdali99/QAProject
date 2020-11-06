@@ -3,7 +3,7 @@ version: "3.7"
 services:
 
   service1:
-    image: service1 
+    image: localhost:8082/service1 
     build:
       context: /home/student/QAProject/service-1/
       dockerfile: dockerfile_1
@@ -13,7 +13,7 @@ services:
       protocol: tcp
       
   service2:
-    image: service2
+    image: localhost:8082/service2
     build:
       context: /home/student/QAProject/service-2/
       dockerfile: dockerfile_2
@@ -23,7 +23,7 @@ services:
       protocol: tcp
       
   service3:
-    image: service3
+    image: localhost:8082/service3
     build:
       context: /home/student/QAProject/service-3/
       dockerfile: dockerfile_3
@@ -33,7 +33,7 @@ services:
       protocol: tcp
       
   service4:
-    image: service4
+    image: localhost:8082/service4
     build:
       context: /home/student/QAProject/service-4/
       dockerfile: dockerfile_4
