@@ -4,4 +4,4 @@ echo "sonar-scanner \
   -Dsonar.projectKey=QAProject \
   -Dsonar.sources=. \
   -Dsonar.host.url=http://localhost:9000 \
-  -Dsonar.login=ef36d0c233aa2df85dbc9b300f0aa43429869e55"
+  -Dsonar.login=6aa110cddbf18d03288412130cdf63f73156ee36"
