@@ -1,7 +1,7 @@
 #! /bin/bash
 
-echo "sonar-scanner \
+sonar-scanner \
   -Dsonar.projectKey=QAProject \
   -Dsonar.sources=. \
   -Dsonar.host.url=http://localhost:9000 \
-  -Dsonar.login=d781fbef6b918fe7c56a9e0163115a559993f11c"
+  -Dsonar.login=ef36d0c233aa2df85dbc9b300f0aa43429869e55
