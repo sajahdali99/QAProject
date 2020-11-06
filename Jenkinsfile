@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage("Installing Docker and Docker-Compose with Ansible"){
 			steps {
-				sh "./scripts/playbook.sh"
+				sh "./scripts/ansible_playbook.sh"
 			}
 		}
 		stage("SAST Testing"){
