@@ -40,16 +40,22 @@
 <details><b><summary>Possible improvements for future challenges</b></summary>
 <p>
 
-One of the things I struggled with during this project and previous challenges was my VM crashing at the most impromptu times. Unfortunately there is no fix for this.
-### Improvements:
+> One of the things I struggled with during this project and previous challenges was my VM crashing at the most impromptu times. Unfortunately there is no fix for this.
+
+<details><b><summary>Improvements:</b></summary>
+<p>
+
 >- Use QA community more
 >- Ask for more help
 >- Time management
 >- Ensure stretch goals are completed
+ 
+</p>
+</details>
 
 </p>
 </details>
-....................................................................................................................................................................................................................................................................................
+..................................................................................................................................................................................................................................................................................
 
 ### Tasks
  
